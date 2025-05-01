@@ -1,0 +1,29 @@
+baseURL = "https://thestrid3r.github.io/ops_odyssey/"
+languageCode = "en-us"
+title = "Ops Odyssey"
+theme = "ananke"
+
+# Enable Google Analytics
+googleAnalytics = ""
+
+# Enable Disqus comments
+disqusShortname = ""
+
+# Enable social media links
+[params]
+  # Social media links
+  twitter = ""
+  github = ""
+  linkedin = ""
+  instagram = ""
+  facebook = ""
+  youtube = ""
+  
+  # Site description
+  description = "Welcome to Ops Odyssey - Your DevOps Journey"
+  
+  # Site author
+  author = "Your Name"
+  
+  # Site logo
+  logo = "" 
