@@ -3,6 +3,7 @@ title: "Getting Started with DevOps"
 date: 2024-03-21
 draft: false
 tags: ["devops", "beginners", "tutorial"]
+authors: ["default"]
 ---
 
 # Getting Started with DevOps

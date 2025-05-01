@@ -1,7 +1,7 @@
 baseURL = "https://thestrid3r.github.io/Ops_Odyssey/"
 languageCode = "en-us"
 title = "Ops Odyssey"
-theme = "ananke"
+theme = "FixIt"
 
 # Enable Google Analytics
 googleAnalytics = ""
@@ -9,21 +9,82 @@ googleAnalytics = ""
 # Enable Disqus comments
 disqusShortname = ""
 
-# Enable social media links
+# FixIt theme configuration
 [params]
-  # Social media links
-  twitter = ""
-  github = ""
-  linkedin = ""
-  instagram = ""
-  facebook = ""
-  youtube = ""
-  
   # Site description
   description = "Welcome to Ops Odyssey - Your DevOps Journey"
   
-  # Site author
-  author = "Your Name"
-  
   # Site logo
-  logo = "" 
+  logo = ""
+  
+  # Theme color scheme
+  colorScheme = "auto"  # auto, light, dark
+  
+  # Search configuration
+  [params.search]
+    enable = true
+    type = "auto"  # auto, algolia, fuse
+  
+  # Social links
+  [params.social]
+    GitHub = ""
+    Twitter = ""
+    LinkedIn = ""
+    Instagram = ""
+    Facebook = ""
+    YouTube = ""
+  
+  # Menu configuration
+  [params.menu]
+    [[params.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/posts/"
+      weight = 10
+    [[params.menu.main]]
+      identifier = "tags"
+      name = "Tags"
+      url = "/tags/"
+      weight = 20
+    [[params.menu.main]]
+      identifier = "categories"
+      name = "Categories"
+      url = "/categories/"
+      weight = 30
+
+# Author configuration
+[author]
+  name = "Your Name"
+  email = ""
+  link = ""
+  avatar = ""
+  gravatarEmail = ""
+  bio = "DevOps Engineer and Cloud Enthusiast"
+  location = ""
+  company = ""
+  [author.social]
+    GitHub = ""
+    Twitter = ""
+    LinkedIn = ""
+    Instagram = ""
+    Facebook = ""
+    YouTube = ""
+
+# Default author for all content
+[params.authors]
+  [params.authors.default]
+    name = "Your Name"
+    email = ""
+    link = ""
+    avatar = ""
+    gravatarEmail = ""
+    bio = "DevOps Engineer and Cloud Enthusiast"
+    location = ""
+    company = ""
+    [params.authors.default.social]
+      GitHub = ""
+      Twitter = ""
+      LinkedIn = ""
+      Instagram = ""
+      Facebook = ""
+      YouTube = "" 

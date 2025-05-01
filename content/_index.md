@@ -2,6 +2,7 @@
 title: "Welcome to Ops Odyssey"
 date: 2024-03-21
 draft: false
+authors: ["default"]
 ---
 
 # Welcome to Ops Odyssey
